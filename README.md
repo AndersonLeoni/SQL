@@ -7,7 +7,6 @@ O INNER JOIN é o método de junção de tabelas mais conhecido. Ele retorna as 
 
 Exemplo da instrução:
 
-
 ```sql
 SELECT A.NOME, B.HOBBY FROM TABELA_ESQUEDAR A 
 INNER JOIN TABELA_DIREITA B 
