@@ -37,4 +37,24 @@ ON A.Key = B.Key
 
 [LEFT E RIGHT JOIN](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20LEFT%20e%20RIGHT%20JOIN.sql)
 
+## FULL JOIN
+Retorna todos os registros de todas as tabelas da consulta
+
+Exemplo da intrução FULL JOIN
+```sql
+SELECT A.NOME, B.HOBBY FROM
+TABELA_ESQUERDA A
+FULL JOIN TABELA_DIREITA B
+ON A.IDENTIFICADOR = B.IDENTIFICADOR
+```
+
+## CROSS JOIN 
+Retorna o produto cartesiano das duas tabelas (cruza as informações)
+
+```sql
+SELECT A.NOME, B.HOBBY FROM
+TABELA_ESQUERDA A, TABELA_DIREITA B
+```
+[FULL JOIN e CROO JOIN](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20FULL%20e%20CROSS%20JOIN.sql)
+
 
