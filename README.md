@@ -13,4 +13,12 @@ INNER JOIN TABELA_DIREITA B
 ON A.INDENTIFICADOR = B.IDENTIFICADOR
 ```
 
-[INNER](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20INNER%20JOIN.sql)
+[INNER JOIN](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20INNER%20JOIN.sql)
+
+LEFT e RIGHT JOIN
+
+Além da interseção, busca também resultados que não possuem interseção. Para LEFT JOIN são pegos os resultados da tabela a esquerda, além do resultado da interseção entre as duas tabelas, e para RIGHT JOIN são pegos os valores da tabela a direita, além do resultado da interseção entre as duas tabelas.
+
+[LEFT E RIGHT JOIN](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20LEFT%20e%20RIGHT%20JOIN.sql)
+
+
