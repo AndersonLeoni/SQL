@@ -51,10 +51,24 @@ ON A.IDENTIFICADOR = B.IDENTIFICADOR
 ## CROSS JOIN 
 Retorna o produto cartesiano das duas tabelas (cruza as informações)
 
+Exemplo da intrução CROSS JOIN
 ```sql
 SELECT A.NOME, B.HOBBY FROM
 TABELA_ESQUERDA A, TABELA_DIREITA B
 ```
 [FULL JOIN e CROOS JOIN](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20FULL%20e%20CROSS%20JOIN.sql)
+
+## UNION
+
+Retorna a união de duas ou mais tabelas
+
+Exemplo da intrução UNION
+```sql
+SELECT DISTINTC BAIRRO FORM TABELA_DE_CLIENTES
+UNION
+SELECT DISTINCT BAIRRO FROM TABELA_DE_VENDEDORES
+```
+
+[UNION](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20UNION.sql)
 
 
