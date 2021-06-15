@@ -55,6 +55,6 @@ Retorna o produto cartesiano das duas tabelas (cruza as informações)
 SELECT A.NOME, B.HOBBY FROM
 TABELA_ESQUERDA A, TABELA_DIREITA B
 ```
-[FULL JOIN e CROO JOIN](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20FULL%20e%20CROSS%20JOIN.sql)
+[FULL JOIN e CROOS JOIN](https://github.com/AndersonLeoni/SQL/blob/main/JOINS/Consultas%20FULL%20e%20CROSS%20JOIN.sql)
 
 
