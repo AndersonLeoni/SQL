@@ -14,8 +14,8 @@
   ```
   
   **Desmembrando o comando**
-  >SELECT inicio do comando
-  > * (significa trazer todo o conteúdo)
+  >SELECT inicio do comando.
+  > (*) (significa trazer todo o conteúdo)
   > FROM a tabela que está extraindo os dados (ou tabelas)
   
   
