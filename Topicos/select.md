@@ -14,9 +14,10 @@
   ```
   
   **Desmembrando o comando**
-  >SELECT inicio do comando.
-  > (*) (significa trazer todo o conteúdo)
-  > FROM a tabela que está extraindo os dados (ou tabelas)
+  
+  1. SELECT inicio do comando.
+  2. (*) (significa trazer todo o conteúdo)
+  3. FROM a tabela que está extraindo os dados (ou tabelas)
   
   
  # WHERE
