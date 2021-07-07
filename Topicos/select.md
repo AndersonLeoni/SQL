@@ -21,4 +21,12 @@
   
   
  # WHERE
+ O comando WHERE é utilizado para filtrar dados no SQL. Essa clausula sempre é seguida por uma expressão lógica.
+ 
+ EXEMPLO da estrutura SELECT + WHERE
+ 
+ ```
+  SELECT * FROM nome_da_tabela WHERE id = dado;
+  ```
+ 
  
